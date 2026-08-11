@@ -1,0 +1,25 @@
+{
+  "name": "codereviewer-lite",
+  "version": "1.0.0",
+  "description": "A local AI code review tool that gives feedback on PRs before submission",
+  "main": "src/codereviewer.js",
+  "bin": {
+    "codereviewer-lite": "src/codereviewer.js"
+  },
+  "scripts": {
+    "start": "node src/codereviewer.js",
+    "test": "node test/test.js",
+    "tracker": "node src/achievement-tracker.js",
+    "roadmap": "node src/achievement-tracker.js roadmap"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "cli",
+    "ai",
+    "developer-tools",
+    "codereviewer-lite"
+  ]
+}
